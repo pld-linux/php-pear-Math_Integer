@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
-Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i manipulacji na integerach
+Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i manipulacji na liczbach ca³kowitych
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	1
@@ -26,10 +26,6 @@ internal integer representation. The Math_IntegerOp class defines
 operations on Math_Integer objects.
 
 This class has in PEAR status: %{_status}
-
-%description -l pl
-
-Ta klasa ma w PEAR status: %{_status}
 
 %prep
 %setup -q -c
