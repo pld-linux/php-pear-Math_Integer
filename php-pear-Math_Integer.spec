@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
-Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i manipulacji na liczbach ca³kowitych
+Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeñ na liczbach ca³kowitych
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	1
@@ -25,7 +25,17 @@ longs that are the default of PHP, if either the GMP or the BCMATH
 internal integer representation. The Math_IntegerOp class defines
 operations on Math_Integer objects.
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
+
+%description -l pl
+Klasa Math_Integer mo¿e reprezentowaæ liczby ca³kowite wiêksze ni¿
+long ze znakiem, który jest domy¶lnym typem w PHP - o ile obecne jest
+jedno z rozszerzeñ GMP i BCMATH (do³±czanych do dystrybucji PHP). W
+przeciwnym wypadku klasa u¿yje wewnêtrznej reprezentacji liczb
+ca³kowitych. Klasa Math_IntegerOp definiuje operacje na obiektach
+klasy Math_Integer.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
