@@ -26,7 +26,7 @@ longs that are the default of PHP, if either the GMP or the BCMATH
 internal integer representation. The Math_IntegerOp class defines
 operations on Math_Integer objects.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa Math_Integer mo¿e reprezentowaæ liczby ca³kowite wiêksze ni¿
