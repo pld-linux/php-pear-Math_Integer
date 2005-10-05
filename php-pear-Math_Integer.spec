@@ -2,13 +2,13 @@
 %define		_class		Math
 %define		_subclass	Integer
 %define		_status		stable
-
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
 Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeñ na liczbach ca³kowitych
 Name:		php-pear-%{_pearname}
 Version:	0.8
-Release:	2.1
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	54a64c880e7d4910280a475871798279
