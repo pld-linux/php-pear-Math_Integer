@@ -9,6 +9,7 @@ Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeñ na licz
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	3
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	54a64c880e7d4910280a475871798279
