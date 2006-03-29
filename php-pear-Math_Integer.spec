@@ -8,7 +8,7 @@ Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
 Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeñ na liczbach ca³kowitych
 Name:		php-pear-%{_pearname}
 Version:	0.8
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
