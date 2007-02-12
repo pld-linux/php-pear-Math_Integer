@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
-Summary(pl):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeñ na liczbach ca³kowitych
+Summary(pl.UTF-8):   %{_class}_%{_subclass} - pakiet do reprezentacji i obliczeÅ„ na liczbach caÅ‚kowitych
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	4
@@ -31,19 +31,19 @@ operations on Math_Integer objects.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa Math_Integer mo¿e reprezentowaæ liczby ca³kowite wiêksze ni¿
-long ze znakiem, który jest domy¶lnym typem w PHP - o ile obecne jest
-jedno z rozszerzeñ GMP i BCMATH (do³±czanych do dystrybucji PHP). W
-przeciwnym wypadku klasa u¿yje wewnêtrznej reprezentacji liczb
-ca³kowitych. Klasa Math_IntegerOp definiuje operacje na obiektach
+%description -l pl.UTF-8
+Klasa Math_Integer moÅ¼e reprezentowaÄ‡ liczby caÅ‚kowite wiÄ™ksze niÅ¼
+long ze znakiem, ktÃ³ry jest domyÅ›lnym typem w PHP - o ile obecne jest
+jedno z rozszerzeÅ„ GMP i BCMATH (doÅ‚Ä…czanych do dystrybucji PHP). W
+przeciwnym wypadku klasa uÅ¼yje wewnÄ™trznej reprezentacji liczb
+caÅ‚kowitych. Klasa Math_IntegerOp definiuje operacje na obiektach
 klasy Math_Integer.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -52,7 +52,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
