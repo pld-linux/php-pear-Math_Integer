@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
-Summary(pl.UTF-8):   %{_class}_%{_subclass} - pakiet do reprezentacji i obliczeń na liczbach całkowitych
+Summary(pl.UTF-8):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeń na liczbach całkowitych
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	4
@@ -43,7 +43,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
