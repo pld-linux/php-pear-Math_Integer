@@ -12,8 +12,8 @@ Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	54a64c880e7d4910280a475871798279
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	54a64c880e7d4910280a475871798279
 URL:		http://pear.php.net/package/Math_Integer/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
