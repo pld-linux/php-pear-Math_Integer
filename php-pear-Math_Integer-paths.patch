@@ -1,0 +1,24 @@
+--- Math_Integer-0.9.0/usr/share/pear/Math/Integer/gmp.php~	2019-04-08 08:08:39.230385717 +0200
++++ Math_Integer-0.9.0/usr/share/pear/Math/Integer/gmp.php	2019-04-08 08:10:12.258570635 +0200
+@@ -1,7 +1,7 @@
+ <?php
+ 
+-//include_once 'Math/Integer/common.php';
+-include_once 'common.php';
++include_once 'Math/Integer/common.php';
++//include_once 'common.php';
+ 
+ class Math_Integer_GMP extends Math_Integer_Common {/*{{{*/
+     
+--- Math_Integer-0.9.0/usr/share/pear/Math/Integer/bcmath.php~	2019-04-08 08:08:39.227052210 +0200
++++ Math_Integer-0.9.0/usr/share/pear/Math/Integer/bcmath.php	2019-04-08 08:09:46.637234437 +0200
+@@ -1,7 +1,7 @@
+ <?php
+ 
+-include_once 'common.php';
+-//include_once 'Math/Integer/common.php';
++//include_once 'common.php';
++include_once 'Math/Integer/common.php';
+ bcscale(0);
+ 
+ class Math_Integer_BCMATH extends Math_Integer_Common {/*{{{*/

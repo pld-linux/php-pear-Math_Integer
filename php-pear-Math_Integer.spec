@@ -8,12 +8,13 @@ Summary:	%{_class}_%{_subclass} - Package to represent and manipulate integers
 Summary(pl.UTF-8):	%{_class}_%{_subclass} - pakiet do reprezentacji i obliczeń na liczbach całkowitych
 Name:		php-pear-%{_pearname}
 Version:	0.9.0
-Release:	1
+Release:	2
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a8ea4aed5d8c21fa60c263862f30ecf5
+Patch0:		%{name}-paths.patch
 URL:		http://pear.php.net/package/Math_Integer/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -44,6 +45,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %pear_package_setup
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
