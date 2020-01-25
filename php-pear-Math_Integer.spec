@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Math
 %define		_subclass	Integer
 %define		_status		stable
